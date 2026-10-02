@@ -1,0 +1,52 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    max-width: 800px; /*la larg'e'ur maximale du conteneur */
+    padding:  30px;
+    background-color: #e3cccc;
+
+}
+h1,h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    font-weight: 200;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 40px 0;
+}
+
+input,
+button {
+     padding: 10px;
+     box-sizing: border-box;
+     border-color: #ba1d1d;
+     border-style: solid;
+     border-width: 1px;
+}
+
+button{
+    cursor: pointer;
+    background-color: #e83535;
+    font-weight: bold;
+    color: white;
+}
+button:hover {
+    opacity: 0.8;
+}
+
+section,h2 {
+    margin-top: 50px;
+
+}
+
+#projet-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-decoration-color: white;  
+
+}
